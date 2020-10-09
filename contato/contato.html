@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Primeiro_web/produtos/style.css">
+    <title>Contatos</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="/Primeiro_web/produtos/logo.png"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="/Primeiro_web/index.html">Home</a></li>
+                    <li><a href="/Primeiro_web/produtos/produtos.html">Produtos</a></li>
+                    <li><a href="/Primeiro_web/contato/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome">
+
+            <label for="email">Email</label>
+            <input type="text" id="email">
+
+            <label for="fone">Telefone</label>
+            <input type="text" id="fone">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem"></textarea>
+
+            <div>
+                    
+                <p>Como prefere o nosso contato?</p>
+
+                <label for="email_radio">Email</label>
+                <input type="radio"  name="contato" id="email_radio" value="Email">
+
+                <label for="fone_radio">Telefone</label>
+                <input type="radio"  name="contato" id="fone_radio" value="Fone">
+
+                <label for="whats_radio">Whatsapp</label>
+                <input type="radio"  name="contato" id="whats_radio" value="Whats">
+
+            </div>
+
+            <label><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+            <input type="submit" value="Enviar formulario">
+        </form>
+    </main>
+
+</body>
+<footer>
+    <img src="/Primeiro_web/produtos/logo-branco.png" alt="logo-rodape">
+    <p class="copyrigth">&copy; Copyrigth Barbearia Alura - 2020  by: Julin</p>
+</footer>
+</html>
